@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <div>
+      <h1 id="title">Our LAW EXAM BOOSTER Survey Form</h1>
+      <p id="description">
+        Thank you for taking the time to help us improve the platform
+      </p>
+      <form id="survey-form">
+        <label id="name-label" for="name">Name</label><br />
+        <input
+          id="name"
+          type="text"
+          placeholder="Enter your Name"
+          required
+        /><br /><br />
+        <label id="email-label" for="email">Email</label><br />
+        <input
+          id="email"
+          type="email"
+          placeholder="Enter your Email"
+          required
+        /><br /><br />
+        <label id="number-label" for="number">Age (optional)</label><br />
+        <input
+          id="number"
+          pattern="[0-9]+"
+          min="16"
+          max="99"
+          type="number"
+          placeholder="Enter your Age"
+          title="Please type only numbers"
+        /><br /><br />
+        <label for="dropdown">Your current status</label><br />
+        <select id="dropdown" name="dropdown">
+          <option value="pupil">Pupil</option>
+          <option value="student">Student</option>
+          <option value="young profesional">Young Professional</option>
+          <option value="senior professional">Senior Professional</option>
+          <option value="THE BOSS">THE BOSS</option></select
+        ><br /><br />
+        <label for="definitely"
+          >Would you recommend our LAW Exam Booster?<br />
+          <input
+            id="definitely"
+            type="radio"
+            name="assessment"
+            value="Definitely!"
+          />Definitely! </label
+        ><br />
+        <label for="maybe">
+          <input
+            id="maybe"
+            type="radio"
+            name="assessment"
+            value="Maybe"
+          />Maybe </label
+        ><br />
+        <label for="Not-sure">
+          <input
+            id="Not-sure"
+            type="radio"
+            name="assessment"
+            value="Not sure"
+          />Not sure </label
+        ><br /><br />
+        <label for="content">
+          What would you like to see improved?<br />
+          <input
+            id="content"
+            value="Content"
+            name="improvment"
+            type="checkbox"
+          />Content </label
+        ><br />
+        <label for="design">
+          <input
+            id="design"
+            value="design"
+            name="improvment"
+            type="checkbox"
+          />Design </label
+        ><br />
+        <label for="animations">
+          <input
+            id="animations"
+            value="animations"
+            name="improvment"
+            type="checkbox"
+          />Animations </label
+        ><br /><br />
+        <label for="additional-comments">
+          Do you have any additional comments for us?<br />
+          <textarea
+            id="additional-comments"
+            name="additional-comments"
+            placeholder="Please give us your opinion"
+          ></textarea>
+        </label>
+        <br /><br />
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

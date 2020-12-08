@@ -1,0 +1,43 @@
+body {
+  background-color: lightsalmon;
+}
+
+div {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#survey-form {
+  background-color: slategrey;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+h1,
+p {
+  text-align: center;
+}
+#additional-comments {
+  margin-top: 10px;
+  width: 300px;
+  height: 60px;
+  border-radius: 4px;
+}
+#number {
+  width: 169px;
+}
+#submit {
+  padding: 5px 25px;
+  color: white;
+  background-color: green;
+  border-radius: 4px;
+}
+input {
+  border-radius: 4px;
+  padding: 2px 0px;
+}
+#dropdown {
+  width: 175px;
+  border-radius: 4px;
+  padding: 2px 0px;
+}
